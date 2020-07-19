@@ -1,6 +1,6 @@
 # vue-phaser3
 
-#### Webpack boilerplate that integrates Phaser 3 into a Vue project.
+#### Simple game that integrates Phaser 3 into a Vue project.
 
 This project template has been set up using the **Vue CLI 4** and includes:
 * *Sass*
