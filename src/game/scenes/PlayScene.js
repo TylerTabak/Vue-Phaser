@@ -52,7 +52,7 @@ export default class PlayScene extends Scene {
     this.physics.add.overlap(player, bomb, resetPlayer, null, this);
     this.sound.add('thud')
     this.physics.world.on('worldbounds', () => {
-      this.sound.play('thud', { volume: 0.75 })
+      this.sound.play('thud', { volume: 0.45 })
     })
   }
 
