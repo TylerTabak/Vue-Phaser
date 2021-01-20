@@ -79,7 +79,10 @@ export default class PlayScene extends Scene {
 
     if (cursors.up.isDown && player.body.touching.down)
     {
-        player.setVelocityY(-330);
+        player.setVelocityY(-530);
+    }
+    if (cursors.up.isUp && !player.body.touching.down){
+        player.setVelocityY(200);
     }
 
   }
